@@ -2,20 +2,7 @@ C# NUnit SpecFlow Selenium Template Project
 
 Overview
 
-This is a Selenium automation testing template project that uses NUnit as the testing framework and SpecFlow for behavior-driven development (BDD). It is intended to serve as a template for writing end-to-end UI tests in C#. The project integrates the following tools and libraries:
-
-NUnit: Unit testing framework for C#.
-
-SpecFlow: BDD framework for writing human-readable tests.
-
-Selenium WebDriver: Browser automation tool.
-
-ExtentReports: Reporting library for generating HTML reports.
-
-This template allows for easy creation of BDD-style automated tests, making it ideal for UI test automation of web applications.
-
-
-Prerequisites
+This is a Selenium automation testing template project that uses NUnit as the testing framework and SpecFlow for behavior-driven development (BDD). It is intended to serve as a template for writing end-to-end UI tests in C#.
 
 Before you can run the tests, ensure that you have the following installed: Visual Studio (or any other C# IDE); .NET SDK (6.0 or later); NuGet (for managing packages)
 
@@ -42,3 +29,5 @@ Use Case: This package allows you to define your tests in Gherkin syntax (Given,
 7. SpecFlow.Plus.LivingDocPlugin (Version=3.9.57)
 Description: SpecFlow.Plus.LivingDocPlugin is a plugin for generating Living Documentation from your SpecFlow feature files. It creates dynamic reports that show the current status of your feature files and test results.
 Use Case: This plugin allows you to automatically generate reports (Living Documentation) that visualize the execution results of your SpecFlow scenarios, which is useful for reporting purposes and keeping your BDD documentation in sync with test execution.
+
+These packages together provide the foundation for automating UI testing using Selenium, running the tests using NUnit, defining tests in a BDD format via SpecFlow, and generating detailed reports.
