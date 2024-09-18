@@ -43,17 +43,6 @@ ExtentReports: Library for generating reports.
 
 Microsoft.Extensions.DependencyInjection: For dependency injection (optional but recommended).
 
-<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-
-    <IsPackable>false</IsPackable>
-    <IsTestProject>true</IsTestProject>
-  </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="ExtentReports" Version="4.1.0" />
     <PackageReference Include="FluentAssertions" Version="6.12.1" />
@@ -66,9 +55,3 @@ Microsoft.Extensions.DependencyInjection: For dependency injection (optional but
     <PackageReference Include="SpecFlow.NUnit" Version="3.9.74" />
     <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.9.57" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Using Include="NUnit.Framework" />
-  </ItemGroup>
-
-</Project>
